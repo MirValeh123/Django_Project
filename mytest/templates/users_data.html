@@ -1,0 +1,38 @@
+{% extends "index.html" %} {% block body %}
+<h1>Info of users</h1>
+<hr> {% if users_data %}
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">interests</th>
+            <th scope="col">name</th>
+            <th scope="col">email</th>
+            <th scope="col">project</th>
+            <th scope="col">created_date</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">{{users_data.id}}</th>
+            <td>{{users_data.interests}}</td>
+            <td>{{users_data.name}}</td>
+            <td>{{users_data.email}}</td>
+            <td>{{users_data.project}}</td>
+            <td>{{users_data.created_date}}</td>
+            <td><a href="" class="btn btn-success">Update</a></td>
+            <td><a href="" class="btn btn-danger">Delete</a></td>
+
+        </tr> {%else %}
+        <div class="alert alert-danger">There are don't informations about users now!</div>
+
+        {% endif %}
+    </tbody>
+</table>
+{% endblock %}

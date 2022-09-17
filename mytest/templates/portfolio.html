@@ -1,0 +1,50 @@
+{%extends "index.html"%} {%block links1 %}
+<link rel="stylesheet" href="/static/css/portfolio.css"> {%endblock%} {%block body%}
+<div class="container"></div>
+<div class="row  portfolio">
+    <div class="firsttext">
+        <h1 style="font-size: 172px;">Portfolio</h1>
+        <p style="font-size: 26px;">Dexfolio is a multidisciplinary digital agency based in New York. <br> We believe
+            good design solves business problems.
+        </p>
+    </div>
+</div>
+
+<div class="container tables">
+
+    <div class="row " style="justify-content: space-between;">
+        {% if data %}
+        {% for info in data %}
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5  partoftable1">
+            <div class="emptyzone1">
+
+                <img src="{{info.image.url}}" alt="" srcset="">
+            </div>
+            <div class="need">
+                <h3><b><a href="{% url 'project_details' info.id %}">{{info.title}}</a></b></h3>
+                <small><a href="#">{{info.content}}</a></small>
+            </div>
+        </div>
+
+
+        {% endfor %}
+        {% endif %}
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="row" style="margin-top: 100px">
+        <div class="lets">
+            <h1>
+                Let’s create <br /> progress together
+            </h1>
+        </div>
+        <input class="inputs col-12 col-sm-12 col-xs-12" type="text" placeholder="Interested in.." />
+        <input type="text " class="inputs1 col-12 col-sm-5 col-sm-5" placeholder="Your name" />
+        <input type="text" class="inputs2 col-12 col-sm-5 col-xs-5" placeholder="Email" />
+        <input type="email" class="inputs3 col-12 col-sm-12 col-xs-12" placeholder="Project description(Optional)" />
+    </div>
+    <button type="button" class="down">SUBMIT NOW</button>
+</div>
+{%endblock%}

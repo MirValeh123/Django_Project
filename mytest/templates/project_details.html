@@ -1,0 +1,164 @@
+{%extends "index.html"%} {%block links4%}
+<link rel="stylesheet" href="/static/css/project_details.css"> {%endblock%}{%block body%}
+<div class="row" style="padding: 0;width:100%">
+    {% if data %}
+    {% for title in data %}
+    <div class="brand_design">
+        <div class="text">
+            <p>{{title.title}}</p>
+            <h1>
+                The modern world and <br /> people everywhere.
+            </h1>
+        </div>
+    </div>
+
+    {% endfor %}
+    {% endif %}
+</div>
+<div class="row" style="width: 100%;">
+    {% if data %}
+    {% for work in data %}
+    <div class="parts">
+        <div class="col-3 col-sm-3 col-xs-3 part">
+            <h4>
+                <a href="#">
+                    <b>Client</b>
+                </a>
+            </h4>
+            <p>{{work.client}}</p>
+        </div>
+        <div class="col-3 col-sm-3 col-xs-3 part">
+            <h4>
+                <a href="#">
+                    <b>Sr. Designer</b>
+                </a>
+            </h4>
+            <p>{{work.author}}</p>
+        </div>
+        <div class="col-3 col-sm-3 col-xs-3 part">
+            <h4><a href="#"><b>
+                        Category
+                    </b></a></h4>
+            <p>{{work.category}}</p>
+        </div>
+    </div>
+    {% endfor %}
+
+    {% endif %}
+</div>
+<div class="container">
+    {% if data %}
+    {% for img in data %}
+    <div class="row">
+        <div class="project_details">
+            <h1>Project details</h1>
+            <p>Making changes in your life is great and it is the way we grow and. Change is a <br> constant process and
+                part of being human. When embark on changing anything <br> in your life you have to start where you are.
+                Until you know where that is
+                it would <br> be difficult to effectively make the change. You have to start with constant
+                <br> process great and part of being human.
+            </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 empty">
+            <img src="{{img.image.url}}" alt="">
+        </div>
+        <div class="col-12  col-sm-12  col-md-5 col-lg-5  part1">
+
+        </div>
+        <div class="col-12 col-sm-12  col-md-5 col-lg-5 part2">
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-12  part3">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1>First slide</h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>Second slide</h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>Third slide</h1>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <i class="bi bi-arrow-left"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <i class="bi bi-arrow-right"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+
+    </div><br><br><br>
+    {% endfor %}
+
+    {% endif %}
+    <div class="col-12 col-xs-12 col-sm-12 many">
+        <h3><b>
+                Many people feel that there is a limited amount of <br> abundance, wealth, or chances to succeed in
+                life.
+            </b></h3>
+        <br><br>
+        <p>Every former smoker can tell you just how hard it is to stop smoking cigarettes. <br> However, there are a
+            range of stop smoking commodities that can assist you on <br> your transition to a smoke-free lifestyle.
+            Though there is no cure for smokin
+            there <br> are a variety of smoking free videos, quit smoking aid groups and that will make <br> your
+            endeavour to quit smoking cigarettes much easier for you.</p><br><br>
+        <p>Making changes in your life is great and it is the way we grow and is a constant <br> process and part of
+            being human. When embark on changing anything in life you <br> have to start where you are. Until you know
+            where that is would difficult
+            to <br> effectively make the change. You have to start with a baseline.</p><br><br>
+        <button type="button">
+            DISCUSS YOUR PROJECT WITH US
+        </button>
+    </div>
+</div>
+
+<div class="row upplace">
+    <div class="col-7 col-sm-7 col-xs-7">
+        <div class="common">
+            <h1>Next project</h1><br><br>
+            <h3>Nike Brand Re-Branding</h3>
+            <p>Branding - Product</p>
+        </div>
+
+    </div>
+    <div class="col-5 col-xs-5 col-sm-5"></div>
+</div>
+<div class="row upplace1">
+    <div class="col-5 col-xs-5 col-sm-5">
+
+
+    </div>
+    <div class="col-7 col-sm-7 col-xs-7">
+        <div class="common1">
+            <h1>Previous project</h1><br><br>
+            <h3>Nike Invitation Cards</h3>
+            <p>Branding - Product</p>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+{%endblock%}

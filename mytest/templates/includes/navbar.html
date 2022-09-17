@@ -1,0 +1,65 @@
+<header>
+    <div class="header_site">
+        <div class="title">
+            <h3 class="dexfolio">dexfolio.</h3>
+        </div>
+
+        <div class="menus">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    {% if request.user.is_authenticated %}
+                    <img src="{{ request.user.profile_photo.url }}" alt="" style="width: 50px;height: 50px;border-radius: 50%;border: 1px solid black;" >
+
+                    <p style="color: white;font-size: 16px;">Welcome!,{{request.user.username}}</p>
+                    <a class="nav-link" style="padding-top: 0;" href="logout">Logout</a>
+                    {% else %}
+
+                    <a class="nav-link active" aria-current="page" style="padding-top: 0;" href="register">Register</a>
+                    <a class="nav-link" style="padding-top: 0;" href="login">Login</a>
+
+                    {% endif %}
+
+
+
+
+
+            </ul>
+            <h5 class="menu_word">MENU</h5>
+            <div class="dropdown">
+                <a id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg id="Lines" xmlns="http://www.w3.org/2000/svg" width="38" height="24" viewBox="0 0 38 24">
+                        <rect id="Rectangle" width="20" height="4" transform="translate(18)" fill="#fff" />
+                        <rect id="Rectangle_Copy_23" data-name="Rectangle Copy 23" width="14" height="4"
+                            transform="translate(18 10)" fill="#fff" />
+                        <rect id="Rectangle_Copy_24" data-name="Rectangle Copy 24" width="38" height="4"
+                            transform="translate(0 20)" fill="#fff" />
+                    </svg>
+
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="http://localhost:8000/">Home</a>
+                        <a class="dropdown-item" href="http://localhost:8000/about">About</a>
+                        <a class="dropdown-item" href="http://localhost:8000/portfolio">Portfolio</a>
+                        <a class="dropdown-item" href="http://localhost:8000/whatwedo">What we do</a>
+                        <!-- <a class="dropdown-item" href="http://localhost:8000/project_details/<int:id>">Project_details</a> -->
+                        <a class="dropdown-item" href="http://localhost:8000/blog#">Blog</a>
+                        <a class="dropdown-item" href="http://localhost:8000/blog_details#">Blog_details</a>
+                        <a class="dropdown-item" href="http://localhost:8000/contact">Contact<i class="fa-solid fa-phone"></i></a>
+                        <hr>
+                        <a class="dropdown-item" href="addwork">AddWork</a>
+                        <a class="dropdown-item" href="mywork">MyWorks</a>
+                        <a class="dropdown-item" href="edit">Edit Profile
+
+
+                            <i class="fa-solid fa-address-card"></i></a>
+
+
+
+
+
+
+                    </div>
+            </div>
+        </div>
+    </div>
+</header>

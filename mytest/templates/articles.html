@@ -1,0 +1,44 @@
+{% extends "index.html" %} {% block body %}
+<h3>Welcome!{{session.name}}
+
+
+</h3>
+<hr> {% if articles %}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Interests</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Project</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+
+
+
+
+
+        </tr>
+    </thead>
+    {% for a in articles %}
+
+
+    <tbody>
+        <tr>
+            <th scope="row">{{a.id}}</th>
+            <td>{{a.interests}}</td>
+            <td>{{a.name}}</td>
+            <td>{{a.email}}</td>
+            <td>{{a.project}}</td>
+            <td scope="col"><a href="/update/{{a.id}}" class="btn btn-success">Update</a></td>
+            <td scope="col"><a href="" class="btn btn-danger">Delete</a></td>
+        </tr>
+
+        {% endfor %}
+</table>
+{% else %}
+<div class="alert alert-danger" role="alert">
+    This is a danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+{% endif %} {% endblock %}
