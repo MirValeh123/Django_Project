@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.menus .nav-item p{
+    color: #000!important;
+    font-weight: bold;
+}
+label {
+    display: none;
+}
+
+.header_site {
+    background-color: white;
+}
+
+.menu_word {
+    color: black;
+}
+
+#Lines rect {
+    fill: black;
+}
+
+.dexfolio {
+    color: black;
+}
+
+
+/* input */
+
+.form-control {
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 70px;
+}
+
+button {
+    height: 100px;
+    width: 300px;
+}
+
+.input {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#input {
+    height: 150px;
+}
+
+#inputAddress {
+    height: 75px;
+}
+
+#inputEmail4 {
+    height: 75px;
+}
+
+#inputPassword4 {
+    height: 75px;
+}
+
+
+/* input */
+
+.words {
+    margin-top: 100px;
+}
+
+.words h1 {
+    font-size: 172px;
+}
+
+.words p {
+    font-size: 26px;
+}
+
+.empty {
+    margin-top: 50px;
+    height: 390px;
+    background-color: #acacac;
+}
+
+.part ul b {
+    font-size: 36px;
+    color: black;
+}
+
+.part li a {
+    font-size: 18px;
+    color: black;
+}
+
+.parts {
+    margin-top: 70px;
+}
+
+
+/* ==================================== CONTACT =========================================== */
+
+
+
+
+
+
+.lets {
+    margin-bottom: 100px;
+}
+
+.lets h1 {
+    font-size: 102px;
+}
+
+.inputs {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-bottom: 30px;
+}
+
+.inputs1 {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-right: 90px;
+}
+
+.inputs2 {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-bottom: 30px;
+    margin-left: 94px;
+}
+
+.inputs3 {
+    height: 200px;
+    border-color: #d8d8d8;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.down {
+    width: 330px;
+    height: 100px;
+    background-color: #4444ff;
+    color: white;
+    border-color: #707070;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .inputs2 {
+        margin-left: 27px;
+    }
+
+    .lets h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .inputs2 {
+        margin-left: 94px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .inputs2 {
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .inputs2 {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .inputs {
+        height: 80px;
+    }
+
+    .inputs1 {
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 50px;
+    }
+
+    .inputs2 {
+        margin-left: 0 !important;
+        height: 50px;
+    }
+
+    .inputs3 {
+        height: 120px;
+    }
+
+    .down {
+        height: 70px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inputs1 {
+        margin-right: 0;
+    }
+
+    .inputs2 {
+        margin-left: 85px;
+    }
+}

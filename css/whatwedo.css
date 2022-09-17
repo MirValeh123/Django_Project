@@ -1,0 +1,390 @@
+body {
+    overflow-x: hidden;
+}
+.menus .nav-item p{
+    color: #000!important;
+    font-weight: bold;
+}
+
+
+/* whatwedo */
+
+.yazi {
+    justify-content: center;
+}
+
+.box2 {
+    height: 799px;
+}
+
+.empty {
+    height: 640px;
+    /* background-color: #d8d8d8; */
+
+}
+.empty img{
+    width: 438px;
+    height: 600px;
+}
+
+.writing a {
+    color: black;
+}
+
+.writing h3 a {
+    font-size: 36px;
+}
+
+.writing p a {
+    font-size: 18px;
+}
+
+.empty_area {
+    height: 960px;
+    background-color: #0d0d44;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.empty_area video{
+    width: 50%;
+    
+}
+
+
+/* /whatwedo */
+
+
+/* Our expertise */
+
+/* .emptyzone {
+    height: 380px;
+    background-color: #d8d8d8;
+} */
+.emptyzone1 {
+    height: 380px;
+    position: relative;
+    background-image: url('https://www.zieminstitute.com/images/Strategy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.emptyzone2 {
+    height: 380px;
+    position: relative;
+    background-image: url('https://miro.medium.com/max/1400/0*BYqPvL-im5kZziVh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emptyzone3 {
+    height: 380px;
+    position: relative;
+    background-image: url('http://www.thinkunitedinc.com/wp-content/uploads/2021/06/web-left-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letterzone {
+    height: 150px;
+    background-color: #f9f9f9;
+}
+
+.col-3 {
+    padding: 0 !important;
+}
+
+.letterzone .one h1 {
+    font-size: 36px;
+}
+
+.letterzone .one span {
+    font-size: 16px;
+}
+
+.one {
+    padding-top: 28px;
+}
+
+.salam {
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+.salam .col-12 {
+    padding-bottom: 0 !important;
+}
+
+.salam .heads h1 {
+    font-size: 102px;
+}
+
+.salam .title span {
+    font-size: 26px;
+}
+
+
+/* /Our expertise */
+
+
+/* emptyplace */
+
+.emptyplace {
+    height: 600px;
+    width: 100%;
+}
+
+.central {
+    height: 20px;
+}
+
+.sa {
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+/* /emptyplace */
+
+
+/* input */
+
+.inputs {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-bottom: 30px;
+}
+
+.inputs1 {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-right: 90px;
+}
+
+.inputs2 {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-bottom: 30px;
+    margin-left: 97px;
+}
+
+.inputs3 {
+    height: 200px;
+    border-color: #d8d8d8;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.down {
+    width: 330px;
+    height: 100px;
+    background-color: #4444ff;
+    color: white;
+    border-color: #707070;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-size: 18px;
+}
+
+
+/* /input */
+
+
+/* nav */
+
+.dexfolio {
+    color: black;
+}
+
+.menu_word {
+    color: black;
+}
+
+.header_site {
+    background-color: white;
+}
+
+#Lines rect {
+    fill: black;
+}
+
+
+/* ================================= WHATWEDO =============================== */
+
+@media screen and (max-width: 1024px) {
+    .menu_word {
+        font-size: 15px;
+    }
+    .dexfolio {
+        font-size: 20px;
+    }
+    .pharagraph h1 {
+        font-size: 50px !important;
+    }
+    .pharagraph p {
+        font-size: 15px !important;
+    }
+    .empty {
+        height: 250px;
+    }
+    .writing h3 a {
+        font-size: 18px;
+    }
+    .writing p a {
+        font-size: 14px;
+    }
+    .box2 {
+        height: 476px;
+    }
+    .under {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lets h1 {
+        margin-bottom: 50px;
+        font-size: 100px;
+    }
+}
+
+
+/* ================================= EMPTYAREA ================================ */
+
+@media screen and (max-width: 768px) {
+    .empty_area {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .empty_area {
+        height: 700px;
+    }
+}
+
+
+/* ================================= EMPTYPLACE =================================== */
+
+@media screen and (max-width: 768px) {
+    .emptyplace {
+        height: 200px;
+    }
+    .central p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .emptyplace {
+        height: 350px;
+    }
+}
+
+
+/* =============================== OUR EXPERTISE ============================ */
+
+@media screen and (max-width: 1024px) {
+    .salam .col-12 h1 {
+        font-size: 50px;
+    }
+    .salam .col-12 span {
+        font-size: 16px;
+    }
+    .salam .col-12 {
+        padding-top: 0 !important;
+    }
+    .one h1 {
+        font-size: 24px !important;
+    }
+    .one span {
+        font-size: 10px !important;
+    }
+    .emptyzone {
+        height: 300px;
+    }
+    .salam .title {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .secondpart {
+        justify-content: center;
+    }
+    .letter {
+        padding-left: 30px;
+    }
+}
+
+
+/* ======================= LETS CREATE PROGRESS TOGETHER =============================== */
+
+@media screen and (max-width: 992px) {
+    .inputs2 {
+        margin-left: 27px;
+    }
+    .lets h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lets {
+        margin-bottom: 30px;
+    }
+    .lets h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .inputs2 {
+        margin-left: 97px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .inputs2 {
+        margin-left: 67px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .inputs {
+        height: 80px;
+    }
+    .inputs1 {
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 50px;
+    }
+    .inputs2 {
+        margin-left: 0 !important;
+        height: 50px;
+    }
+    .inputs3 {
+        height: 120px;
+    }
+    .down {
+        height: 70px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inputs1 {
+        margin-right: 0;
+    }
+    .inputs2 {
+        margin-left: 87px;
+    }
+    .lets h1 {
+        font-size: 40px;
+    }
+    .lets {
+        margin-bottom: 30px;
+    }
+}

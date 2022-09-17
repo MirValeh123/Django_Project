@@ -1,0 +1,759 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    margin: 0%;
+    padding: 0;
+}
+
+.text {
+    height: 1000px;
+    /* background-color: #1b217a; */
+    background-image: url('https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg');
+    margin-right: 0;
+}
+
+.text .col-8 {
+    text-align: initial;
+}
+
+.sentences h1 {
+    font-size: 102px;
+    color: white;
+}
+
+.sentences p {
+    font-size: 26px;
+}
+
+.text .col-8 button {
+    width: 330px;
+    height: 100px;
+    font-size: 18px;
+}
+
+.letter {
+    margin-top: 40px;
+}
+
+.letter h1 {
+    font-size: 102px;
+}
+
+.letter p {
+    font-size: 26px;
+}
+
+/* .secondpart .col-12 {
+    background-color: #d8d8d8;
+} */
+
+/* .secondpart {
+    height: 2500px;
+} */
+
+.nike {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 737px;
+    padding: 0 !important;
+}
+
+.metal {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 637px;
+    padding: 0 !important;
+}
+
+.ThreeD {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 637px;
+    padding: 0 !important;
+}
+
+.material {
+    margin-top: 20px;
+    height: 520px;
+    padding: 0 !important;
+}
+
+.dexco {
+    margin-top: 20px;
+    height: 737px;
+    padding: 0 !important;
+}
+
+.color {
+    margin-top: 20px;
+    height: 737px;
+    padding: 0 !important;
+}
+
+.empty1 img {
+    height: 520px;
+    width: 500px;
+
+    /* background-image: url('https://ridzeal.com/wp-content/uploads/2020/08/Creative-Ideas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+
+}
+.buton{
+    margin-top: 300px;
+}
+
+.material {
+    margin-bottom: 150px;
+    margin-left: 60px;
+}
+
+/* 
+
+.empty2 {
+    height: 620px;
+    background-image: url('https://e7.pngegg.com/pngimages/858/420/png-clipart-pet-tag-dog-tag-brand-logo-product-design-nike-football-poster-text-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.empty3 {
+    height: 620px;
+    background-image: url('https://cdn4.vectorstock.com/i/1000x1000/09/78/purple-abstract-background-landing-page-website-vector-31540978.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.empty4 {
+    height: 520px;
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/419bQAIDfBL.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.empty5 {
+    height: 620px;
+    background-image: url('https://mindsparklemag.com/wp-content/uploads/2018/02/Flora-Illustration-3D-Design-mindsparkle-mag-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.empty6 {
+    height: 520px;
+    background-image: url('https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/30/posts/26768/image/journal-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.letter1 {
+    background-color: white;
+    height: 20%;
+    margin-top: 20px;
+}
+
+.letter2 {
+    background-color: white;
+    height: 20%;
+}
+
+.letter3 {
+    background-color: white;
+    height: 20%;
+}
+
+.letter4 {
+    background-color: white;
+    height: 20%;
+}
+
+.letter5 {
+    background-color: white;
+    height: 20%;
+}
+
+.letter6 {
+    background-color: white;
+    height: 20%;
+}
+
+.coxluq {
+    padding-top: 20px;
+}
+
+.buton button {
+    width: 330px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#loadmoreBtn a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buton {
+    text-align: center;
+}
+
+.thirdpart {
+    background-color: #f9f9f9;
+    padding: 0 !important;
+}
+
+.thirdpart h1 {
+    font-size: 102px;
+}
+
+.thirdpart span {
+    font-size: 26px;
+}
+
+.thirdpart {
+    margin-top: 150px;
+}
+
+.thirdpart .col-3 {
+    margin-top: 70px;
+    height: 530px;
+    width: 340px;
+}
+
+.emptyzone1 {
+    height: 380px;
+    position: relative;
+    background-image: url('https://www.zieminstitute.com/images/Strategy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emptyzone2 {
+    height: 380px;
+    position: relative;
+    background-image: url('https://miro.medium.com/max/1400/0*BYqPvL-im5kZziVh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emptyzone3 {
+    height: 380px;
+    position: relative;
+    background-image: url('http://www.thinkunitedinc.com/wp-content/uploads/2021/06/web-left-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letterzone {
+    height: 150px;
+    background-color: #f9f9f9;
+}
+
+.col-3 {
+    padding: 0 !important;
+}
+
+.letterzone .one h1 {
+    font-size: 36px;
+}
+
+.letterzone .one span {
+    font-size: 16px;
+}
+
+.one {
+    padding-top: 28px;
+}
+
+.salam {
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://carrickswan.com/wp-content/uploads/2016/04/site-background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.salam .col-12 {
+    padding-bottom: 0 !important;
+}
+
+.salam .heads h1 {
+    font-size: 102px;
+}
+
+.salam .title span {
+    font-size: 26px;
+}
+
+.fourthpart {
+    background-color: #4444ff;
+    align-items: center;
+    justify-content: center;
+}
+
+.head h1 {
+    font-size: 102px;
+    color: white;
+}
+
+.head span {
+    font-size: 26px;
+    color: white;
+}
+
+.boxes {
+    margin-top: 40px;
+    padding-left: 120px !important;
+}
+
+.boxes ul h1 {
+    font-size: 72px;
+    color: #b6b6ff;
+}
+
+.boxes ul li {
+    font-size: 26px;
+    color: #b6b6ff;
+}
+
+.boxes ul h1:hover {
+    color: white;
+}
+
+.boxes ul li:hover {
+    color: white;
+}
+
+.boxes .row .col-5 {
+    border-top: 3px solid #b6b6ff;
+}
+
+.part2 {
+    margin-left: 30px;
+}
+
+.part3 {
+    margin-left: 30px;
+}
+
+.part5 {
+    margin-left: 30px;
+}
+
+.part1 :hover {
+    border-top: white !important;
+}
+
+.part2 :hover {
+    border-top: white !important;
+}
+
+.part3 :hover {
+    border-top: white !important;
+}
+
+.part4 :hover {
+    border-top: white !important;
+}
+
+.part5 :hover {
+    border-top: white !important;
+}
+
+.fifth-part .col-3 {
+    width: 340px;
+    height: 340px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    border: 1px solid #707070;
+}
+
+.fifth-part {
+    /* background-color: #f9f9f9 !important; */
+    background-image: url('https://carrickswan.com/wp-content/uploads/2016/04/site-background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fifth-part .col-10 .row {
+    margin-top: 100px;
+}
+
+.fifth-part .col-10 {
+    margin-top: 100px;
+}
+
+.col-10 h1 {
+    font-size: 102px;
+}
+
+.fifth-part .col-10 p {
+    font-size: 26px;
+    color: black;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.lets {
+    margin-bottom: 100px;
+}
+
+.lets h1 {
+    font-size: 102px;
+}
+
+.inputs {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-bottom: 30px;
+}
+
+.inputs1 {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-right: 90px;
+}
+
+.inputs2 {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-bottom: 30px;
+    margin-left: 97px;
+}
+
+.inputs3 {
+    height: 200px;
+    border-color: #d8d8d8;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.down {
+    width: 330px;
+    height: 100px;
+    background-color: #4444ff;
+    color: white;
+    border-color: #707070;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .sentences h1 {
+        font-size: 50px;
+    }
+
+    .sentences p {
+        font-size: 15px;
+    }
+
+    .letter h1 {
+        font-size: 50px;
+    }
+
+    .letter p {
+        font-size: 15px;
+    }
+
+    .coxluq h1 {
+        font-size: 23px;
+    }
+
+    .coxluq span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lets h1 {
+        font-size: 50px;
+    }
+
+    .text .col-8 button {
+        width: 250px;
+    }
+}
+
+
+/* =============================== OUR EXPERTISE ============================ */
+
+@media screen and (max-width: 1024px) {
+    .salam .col-12 h1 {
+        font-size: 50px;
+    }
+
+    .salam .col-12 span {
+        font-size: 16px;
+    }
+
+    .salam .col-12 {
+        padding-top: 0 !important;
+    }
+
+    .one h1 {
+        font-size: 24px !important;
+    }
+
+    .one span {
+        font-size: 10px !important;
+    }
+
+    .emptyzone {
+        height: 300px;
+    }
+
+    .salam .title {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .secondpart {
+        justify-content: center;
+    }
+
+    .letter {
+        padding-left: 30px;
+    }
+}
+
+
+/* ============================================ AWARD RECOGNITIONS =================================== */
+
+@media screen and (max-width: 768px) {
+    .boxes {
+        padding-left: 73px !important;
+    }
+
+    .part3 {
+        margin: 0;
+    }
+
+    .part4 {
+        margin-left: 30px;
+    }
+
+    .part5 {
+        margin: 0;
+    }
+
+    .head h1 {
+        font-size: 50px;
+    }
+
+    .head span {
+        font-size: 15px;
+    }
+
+    .fourthpart .col-9 {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .boxes ul li {
+        font-size: 20px;
+    }
+
+    .head h1 {
+        font-size: 50px;
+    }
+
+    .head span {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .boxes {
+        padding-left: 96px !important;
+    }
+
+    .boxes ul h1 {
+        font-size: 50px;
+    }
+
+    .boxes ul li {
+        font-size: 15px;
+    }
+}
+
+
+/* =============================== OUR CLIENT ================================= */
+
+@media screen and (max-width: 768px) {
+    .fifth-part .col-3 {
+        margin-left: 35px;
+    }
+
+    .col-10 h1 {
+        font-size: 50px;
+    }
+
+    .fifth-part .col-10 {
+        margin-right: 17px;
+        margin-top: 50px;
+    }
+
+    .fifth-part .col-10 p {
+        font-size: 15px;
+    }
+
+    .fifth-part .col-3 {
+        height: 100px !important;
+    }
+
+    .fifth-part {
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .fifth-part .col-3 {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .fifth-part .col-8 h1 {
+        font-size: 102px;
+    }
+
+    .fifth-part .col-8 p {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fifth-part .col-8 {
+        padding-left: 30px;
+    }
+
+    .empty1 img {
+        height: 250px;
+        width: 300px;
+    }
+
+    .empty1 {
+        margin-bottom: 50px;
+
+    }
+
+    .empty3 {
+        height: 250px;
+    }
+
+    .empty4 {
+        height: 250px;
+    }
+
+    .empty5 {
+        height: 250px;
+    }
+
+    .empty6 {
+        height: 250px;
+    }
+
+    .nike {
+        height: 300px;
+    }
+
+    .metal {
+        height: 300px;
+    }
+
+    .material {
+        height: 300px;
+    }
+
+    .dexco {
+        height: 300px;
+    }
+
+    .color {
+        height: 300px;
+    }
+
+    .ThreeD {
+        height: 300px;
+    }
+}
+
+
+/* ======================= LETS CREATE PROGRESS TOGETHER =============================== */
+
+@media screen and (max-width: 992px) {
+    .inputs2 {
+        margin-left: 27px;
+    }
+
+    .lets h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .inputs2 {
+        margin-left: 97px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .inputs2 {
+        margin-left: 67px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .inputs {
+        height: 80px;
+    }
+
+    .inputs1 {
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 50px;
+    }
+
+    .inputs2 {
+        margin-left: 0 !important;
+        height: 50px;
+    }
+
+    .inputs3 {
+        height: 120px;
+    }
+
+    .down {
+        height: 70px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inputs1 {
+        margin-right: 0;
+    }
+
+    .inputs2 {
+        margin-left: 87px;
+    }
+}

@@ -1,0 +1,593 @@
+body {
+    overflow-x: hidden;
+}
+
+.menus .nav-item p{
+    color: #000!important;
+    font-weight: bold;
+}
+
+.common {
+    max-width: 1100px;
+    width: 80%;
+    margin: auto;
+}
+
+.ourclientmain {
+    max-width: 1100px;
+    width: 80%;
+    margin: auto;
+}
+
+.text .head h1 {
+    font-size: 102px;
+    color: black;
+}
+
+.text {
+    text-align: left;
+}
+
+.text h1 {
+    font-size: 172px;
+}
+
+.text span {
+    font-size: 30px;
+}
+
+.sentence h1 {
+    font-size: 102px;
+}
+
+.sentence span b {
+    font-size: 26px;
+}
+
+.sentence span {
+    font-size: 26px;
+}
+
+.parts-2 {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.fourthpart {
+    background-color: #4444ff;
+    align-items: center;
+    justify-content: center;
+}
+
+.head h1 {
+    font-size: 102px;
+    color: white;
+}
+
+.head span {
+    font-size: 26px;
+    color: white;
+}
+
+.boxes {
+    margin-top: 40px;
+    padding-left: 120px !important;
+}
+
+.boxes ul h1 {
+    font-size: 72px;
+    color: #b6b6ff;
+}
+
+.boxes ul li {
+    font-size: 26px;
+    color: #b6b6ff;
+}
+
+.boxes ul h1:hover {
+    color: white;
+}
+
+.boxes ul li:hover {
+    color: white;
+}
+
+.boxes .row .col-5 {
+    border-top: 3px solid #b6b6ff;
+    padding: 0;
+}
+
+.part2 {
+    margin-left: 30px;
+}
+
+.part3 {
+    margin-left: 30px;
+}
+
+.part5 {
+    margin-left: 30px;
+}
+
+.part1 :hover {
+    border-top: white !important;
+}
+
+.part2 :hover {
+    border-top: white !important;
+}
+
+.part3 :hover {
+    border-top: white !important;
+}
+
+.part4 :hover {
+    border-top: white !important;
+}
+
+.part5 :hover {
+    border-top: white !important;
+}
+
+.qutu {
+    height: 510px;
+    background-color: #d8d8d8;
+    background-image: url('https://imageio.forbes.com/blogs-images/alejandrocremades/files/2018/12/business-3605367_1920-1200x741.jpg?fit=bounds&format=jpg&width=960');
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 b:hover {
+    color: white;
+}
+
+.smallbox {
+    background-color: #d8d8d8;
+    height: 640px;
+    background-image: url('https://imageio.forbes.com/blogs-images/alejandrocremades/files/2018/07/desk-3139127_1920-1200x773.jpg?fit=bounds&format=jpg&width=960');
+}
+
+.smallbox1 {
+    height: 640px;
+    background-color: #d8d8d8;
+    margin: auto;
+    background-image: url('https://englishtribuneimages.blob.core.windows.net/gallary-content/2021/7/Desk/2021_7$largeimg_1761048411.jpg');
+
+}
+
+#Lines rect {
+    fill: #000;
+}
+
+.sentence {
+    text-align: center;
+}
+
+.sentence1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.qutu1 {
+    margin-bottom: 50px;
+    background-color: #d8d8d8;
+    height: 510px;
+    background-image: url('https://www.gov.br/secretariageral/pt-br/moderniza-brasil/doing-business-subnacional/doing-business-subnacional/@@govbr.institucional.tile.nitf/d6f1cc54-cb52-44ff-9c3a-03e1b796823b/@@images/472e84c3-1aac-4164-8bb0-0d8f7f3ae2a1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.fifth-part .col-3 {
+    width: 340px;
+    height: 340px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    border: 1px solid #707070;
+}
+
+.fifth-part {
+    background-color: #f9f9f9 !important;
+}
+
+.fifth-part .col-10 .row {
+    margin-top: 100px;
+}
+
+.fifth-part .col-10 {
+    margin-top: 100px;
+}
+
+.col-10 h1 {
+    font-size: 102px;
+}
+
+.fifth-part .col-10 p {
+    font-size: 26px;
+    color: black;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.this {
+    height: 557px;
+    background-color: #f9f9f9;
+}
+
+.empty-place {
+    height: 440px;
+    /* background-color: #525252; */
+    
+    
+}
+.empty-place img{
+    height: 440px;
+    width: 368px!important;
+}
+
+.this h3 b a {
+    font-size: 36px;
+}
+
+.this span a {
+    font-size: 18px;
+}
+
+.the:hover {
+    color: #4444ff !important;
+}
+
+button {
+    height: 70px;
+    background-color: #4444ff;
+    width: 250px;
+}
+
+.button-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-2 h4 {
+    font-size: 26px;
+}
+
+.button-2 h1 {
+    font-size: 72px;
+}
+
+.parts1 p a {
+    color: white;
+    font-size: 18px;
+}
+
+.parts2 p a {
+    font-size: 18px;
+}
+
+.parts3 p a {
+    font-size: 18px;
+}
+
+.parts4 p a {
+    font-size: 18px;
+    color: white;
+}
+
+.parts4 p {
+    font-size: 18px;
+}
+
+
+/* nav */
+
+.header_site {
+    background-color: white;
+}
+
+.dexfolio {
+    color: black;
+}
+
+.menu_word {
+    color: black;
+}
+
+.big {
+    color: #b6b6ff;
+    font-size: 72px;
+}
+
+.list1 ul li {
+    font-size: 26px;
+}
+
+.list1 ul li :hover {
+    color: #ffffff !important;
+}
+
+.list1 .big b:hover {
+    color: white !important;
+}
+
+
+/* ================================ ABOUT US ============================== */
+
+@media screen and (max-width: 576px) {
+    .menu_word {
+        font-size: 15px;
+    }
+    .dexfolio {
+        font-size: 20px;
+    }
+    .text .head h1 {
+        font-size: 60px;
+    }
+    .text span {
+        font-size: 15px;
+    }
+    .qutu {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text .head h1 {
+        font-size: 65px;
+    }
+    .text span {
+        font-size: 15px;
+    }
+    .qutu {
+        height: 340px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .text span {
+        font-size: 22px;
+    }
+}
+
+
+/* ============================================ CREATIVE AGENCY ======================================= */
+
+@media screen and (max-width: 768px) {
+    .sentence {
+        margin-top: 30px;
+    }
+    .sentence h1 {
+        font-size: 30px !important;
+    }
+    .sentence span b {
+        font-size: 15px;
+    }
+    .sentence span {
+        font-size: 13px;
+    }
+    .smallbox {
+        height: 300px;
+    }
+    .smallbox1 {
+        height: 300px;
+    }
+    .sentence1 p {
+        font-size: 13px;
+    }
+    .qutu1 {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sentence h1 {
+        font-size: 60px;
+    }
+    .sentence span b {
+        font-size: 15px;
+    }
+    .sentence span {
+        font-size: 15px;
+    }
+    .smallbox {
+        height: 360px;
+    }
+    .smallbox1 {
+        height: 360px;
+    }
+    .sentence1 p {
+        font-size: 15px;
+    }
+    .qutu1 {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sentence h1 {
+        font-size: 70px;
+    }
+    .sentence span b {
+        font-size: 17px;
+    }
+    .sentence span {
+        font-size: 17px;
+    }
+    .smallbox {
+        height: 380px;
+    }
+    .smallbox1 {
+        height: 380px;
+    }
+    .sentence1 p {
+        font-size: 17px;
+    }
+    .qutu1 {
+        height: 380px;
+    }
+}
+
+
+/* ============================================ AWARD RECOGNITIONS =================================== */
+
+@media screen and (max-width: 768px) {
+    .head h1 {
+        font-size: 50px;
+    }
+    .head span {
+        font-size: 15px;
+    }
+    .boxes {
+        padding-left: 73px !important;
+    }
+    .part3 {
+        margin: 0;
+    }
+    .part4 {
+        margin-left: 30px;
+    }
+    .part5 {
+        margin: 0;
+    }
+    .boxes {
+        padding-right: 50px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .boxes ul li {
+        font-size: 20px;
+    }
+    .head h1 {
+        font-size: 50px;
+    }
+    .head span {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .boxes {
+        padding-left: 96px !important;
+    }
+    .boxes ul h1 {
+        font-size: 50px;
+    }
+    .boxes ul li {
+        font-size: 15px;
+    }
+}
+
+
+/* =============================== OUR CLIENT ================================= */
+
+@media screen and (max-width: 768px) {
+    .fifth-part .col-3 {
+        margin-left: 35px;
+    }
+    .col-10 h1 {
+        font-size: 50px;
+    }
+    .fifth-part .col-10 {
+        margin-right: 17px;
+        margin-top: 50px;
+    }
+    .fifth-part .col-10 p {
+        font-size: 15px;
+    }
+    .fifth-part .col-3 {
+        height: 100px!important;
+    }
+    .fifth-part {
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .fifth-part .col-3 {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fifth-part .col-8 {
+        padding-left: 30px;
+    }
+}
+
+
+/* ============================== TEAM OF CREATORS ============================== */
+
+@media screen and (max-width: 768px) {
+    .yazi h1 {
+        font-size: 50px !important;
+    }
+    .yazi p {
+        font-size: 15px !important;
+    }
+    .empty-place {
+        height: 300px;
+    }
+    .words h3 b a {
+        font-size: 25px;
+    }
+    .this span a {
+        font-size: 12px;
+    }
+    .fifth-part .col-3 {
+        margin-left: 40px;
+    }
+    .this {
+        height: 500px;
+    }
+    .empty-place {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .yazi h1 {
+        font-size: 60px !important;
+    }
+    .yazi p {
+        font-size: 17px !important;
+    }
+    .words h3 b a {
+        font-size: 28px;
+    }
+    .this span a {
+        font-size: 15px;
+    }
+    .yazi {
+        padding-left: 35px;
+    }
+    .this {
+        padding-left: 35px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .teamcreator {
+        padding: 0;
+    }
+}
+
+
+/* ================================ CAREER ================================ */
+
+@media screen and (max-width: 1024px) {
+    .button-2 h4 {
+        font-size: 15px;
+    }
+    .button-2 h1 {
+        font-size: 40px;
+    }
+}

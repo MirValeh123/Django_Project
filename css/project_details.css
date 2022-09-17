@@ -1,0 +1,349 @@
+    @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header_site {
+        background-color: #2c2c2c;
+    }
+    
+    .brand_design {
+        height: 900px;
+        background-color: #2c2c2c;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brand_design p {
+        color: white;
+        font-size: 26px;
+    }
+    
+    .brand_design h1 {
+        font-size: 82px;
+        color: white;
+    }
+    
+    .text {
+        padding-top: 500px;
+    }
+    
+    .parts {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        background-color: #f9f9f9;
+        width: 100%;
+    }
+    
+    .part {
+        width: 150px;
+        height: 100%;
+    }
+    
+    .part h4 a b {
+        color: black;
+        font-size: 26px;
+    }
+    
+    .part h4 {
+        padding-top: 50px;
+    }
+    
+    .project_details h1 {
+        font-size: 82px;
+    }
+    
+    .project_details p {
+        font-size: 26px;
+    }
+    
+    .empty img{
+        height: 510px;
+        width: 100%;
+        /* background-color: #d8d8d8; */
+        margin-top: 30px;
+        padding-left: 0!important;
+    }
+    
+    .part1 {
+        height: 510px;
+        background-color: #d8d8d8;
+        margin-top: 30px;
+    }
+    
+    .part2 {
+        height: 510px;
+        background-color: #d8d8d8;
+        margin-top: 30px;
+        margin-left: 185px;
+    }
+    
+    .part3 {
+        height: 510px;
+        background-color: #d8d8d8;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    
+    .carousel-item {
+        text-align: center;
+        margin-top: 200px;
+    }
+    
+    .part3 a {
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        background-color: #d8d8d8;
+    }
+    
+    .part3 a:hover {
+        background-color: white;
+    }
+    
+    .many h3 b {
+        font-size: 36px;
+    }
+    
+    .many p {
+        font-size: 26px;
+    }
+    
+    .many button {
+        font-size: 18px;
+        background-color: #272727;
+        height: 100px;
+        width: 100%;
+        color: white;
+        margin-bottom: 100px;
+    }
+    
+    .upplace {
+        height: 720px;
+    }
+    
+    .upplace .col-7 {
+        background-color: #4444ff;
+        display: flex;
+        justify-content: center;
+        padding-top: 200px;
+        padding-left: 150px;
+    }
+    
+    .upplace .col-5 {
+        background-color: #2c2c2c;
+    }
+    
+    .common h1 {
+        font-size: 82px;
+        color: white;
+    }
+    
+    .common h3 {
+        font-size: 36px;
+        color: white;
+    }
+    
+    .common p {
+        font-size: 18px;
+        color: white;
+    }
+    
+    .upplace1 {
+        height: 720px;
+    }
+    
+    .upplace1 .col-5 {
+        background-color: #d8d8d8;
+    }
+    
+    .upplace1 .col-7 {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        padding-top: 200px;
+        padding-left: 100px;
+    }
+    
+    .common1 h1 {
+        font-size: 82px;
+    }
+    
+    .common1 h3 {
+        font-size: 36px;
+    }
+    
+    .common1 p {
+        font-size: 18px;
+    }
+    
+    .bi:hover {
+        color: black;
+    }
+    
+    .carousel-control-prev {
+        margin-top: 180px;
+    }
+    
+    .carousel-control-next {
+        margin-top: 180px;
+    }
+    
+    .many button:hover {
+        background-color: #110070 !important;
+    }
+    /* ============================== BRAND_DESIGN =============================== */
+    
+    @media screen and (max-width:1024px) {
+        .text p {
+            font-size: 18px;
+        }
+        .text h1 {
+            font-size: 40px;
+        }
+        .parts {
+            height: 120px;
+        }
+        .part h4 a b {
+            font-size: 15px;
+        }
+        .part p {
+            font-size: 10px;
+        }
+        .part h4 {
+            padding-top: 20px;
+        }
+        .text {
+            padding-left: 20px;
+        }
+    }
+    /* ========================== Project_Details ========================== */
+    
+    @media screen and (max-width:768px) {
+        .part2 {
+            margin-left: 0!important;
+        }
+    }
+    
+    @media screen and (max-width:992px) {
+        .part2 {
+            margin-left: 117px;
+        }
+    }
+    
+    @media screen and (min-width:992px) {
+        .part2 {
+            margin-left: 157px!important;
+        }
+    }
+    
+    @media screen and (min-width:1200px) {
+        .part2 {
+            margin-left: 187px!important;
+        }
+    }
+    
+    @media screen and (max-width:1025px) {
+        .project_details h1 {
+            font-size: 50px;
+        }
+        .project_details p {
+            font-size: 13px;
+        }
+        .empty {
+            height: 400px;
+        }
+        .part1 {
+            height: 400px;
+        }
+        .part2 {
+            height: 400px;
+            margin-left: 117px;
+        }
+        .part3 {
+            height: 400px;
+        }
+        .carousel-control-next {
+            margin-top: 140px;
+        }
+        .carousel-control-prev {
+            margin-top: 140px;
+        }
+        .carousel-item {
+            margin-top: 170px;
+        }
+        .carousel-item h1 {
+            font-size: 28px;
+        }
+        .many h3 b {
+            font-size: 20px;
+        }
+        .many p {
+            font-size: 13px;
+        }
+        .many button {
+            font-size: 14px;
+            height: 70px;
+            margin-bottom: 50px;
+        }
+    }
+    /* =============================== NEXT PROJECT ==================================== */
+    
+    @media screen and (max-width:576px) {
+        .common h1 {
+            font-size: 27px!important;
+        }
+        .common h3 {
+            font-size: 17px!important;
+        }
+        .common p {
+            font-size: 7px!important;
+        }
+    }
+    
+    @media screen and (max-width:1025px) {
+        .upplace {
+            height: 500px;
+        }
+        .common h1 {
+            font-size: 40px;
+        }
+        .common h3 {
+            font-size: 26px;
+        }
+        .common p {
+            font-size: 13px;
+        }
+    }
+    /* ================================== PREVIOUS PROJECT ======================================== */
+    
+    @media screen and (max-width:576px) {
+        .common1 h1 {
+            font-size: 27px!important;
+        }
+        .common1 h3 {
+            font-size: 17px!important;
+        }
+        .common1 p {
+            font-size: 7px!important;
+        }
+    }
+    
+    @media screen and (max-width:1025px) {
+        .upplace1 {
+            height: 500px;
+        }
+        .common1 h1 {
+            font-size: 40px;
+        }
+        .common1 h3 {
+            font-size: 26px;
+        }
+        .common1 p {
+            font-size: 13px;
+        }
+    }

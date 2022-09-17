@@ -1,0 +1,288 @@
+/* PORTFOLIO */
+
+.portfolio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 1080px;
+    text-align: unset;
+    background-color: #363636;
+    background-image: url('https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firsttext {
+    margin: auto;
+    color: white;
+}
+
+.navpart1 a {
+    color: white !important;
+}
+
+.navpart2 a {
+    color: white !important;
+}
+
+#Lines rect {
+    fill: white !important;
+}
+
+.container-fluid {
+    background-color: #363636 !important;
+}
+
+
+/* /PORTFOLIO */
+
+
+/* Tables */
+
+.partoftable1 {
+    height: 670px;
+    margin-top: 50px;
+}
+
+.partoftable1 img {
+    height: 520px;
+    width: 464px;
+
+}
+
+/* .partoftable2 { */
+/* height: 770px;
+    margin-top: 50px;
+}
+
+.partoftable3 {
+    height: 770px;
+    margin-top: 50px;
+}
+
+.partoftable4 {
+    height: 770px;
+    margin-top: 50px;
+}
+
+.partoftable5 {
+    height: 770px;
+    margin-top: 50px;
+}
+
+.partoftable6 {
+    height: 670px;
+    margin-top: 50px;
+}
+
+.partoftable7 {
+    height: 770px;
+    margin-top: 50px;
+}
+
+.partoftable8 {
+    height: 670px;
+    margin-top: 50px;
+}
+
+.partoftable9 {
+    height: 670px;
+    margin-top: 50px;
+}
+
+.partoftable10 {
+    height: 770px;
+    margin-top: 50px;
+} */
+
+.tables {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.emptyzone1 {
+    height: 520px;
+    /* background-color: #707070; */
+}
+
+
+.need a {
+    color: black;
+}
+
+.need a:hover {
+    color: #4444ff;
+}
+
+.need h3 b a {
+    font-size: 36px;
+}
+
+.need small a {
+    font-size: 18px;
+}
+
+
+/* /Tables */
+
+
+/* Input */
+
+.lets {
+    margin-bottom: 100px;
+}
+
+.lets h1 {
+    font-size: 102px;
+}
+
+.inputs {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-bottom: 30px;
+}
+
+.inputs1 {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-right: 90px;
+}
+
+.inputs2 {
+    height: 100px;
+    border-color: #d8d8d8;
+    margin-bottom: 30px;
+    margin-left: 97px;
+}
+
+.inputs3 {
+    height: 200px;
+    border-color: #d8d8d8;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.down {
+    width: 330px;
+    height: 100px;
+    background-color: #4444ff;
+    color: white;
+    border-color: #707070;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-size: 18px;
+}
+
+
+/* /Input */
+
+.header_site {
+    background-color: #363636;
+}
+
+
+/* ============================= PORTFOLIO =============================== */
+
+@media screen and (max-width: 992px) {
+    .dexfolio {
+        font-size: 20px;
+    }
+
+    .firsttext h1 {
+        font-size: 50px !important;
+    }
+
+    .firsttext p {
+        font-size: 14px !important;
+    }
+
+    .portfolio {
+        height: 800px;
+    }
+
+    .emptyzone1 {
+        height: 275px;
+    }
+
+    .partoftable1{
+        height: 0%;
+    }
+    .partoftable1 img {
+        height: 275px;
+        width: 495px;
+    }
+
+    
+
+    .need h3 b a {
+        font-size: 20px;
+    }
+
+    .need small a {
+        font-size: 12px;
+    }
+}
+
+
+/* ======================= LETS CREATE PROGRESS TOGETHER =============================== */
+
+@media screen and (max-width: 992px) {
+    .inputs2 {
+        margin-left: 27px;
+    }
+
+    .lets h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .inputs2 {
+        margin-left: 97px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .inputs2 {
+        margin-left: 67px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .inputs {
+        height: 80px;
+    }
+
+    .inputs1 {
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 50px;
+    }
+
+    .inputs2 {
+        margin-left: 0 !important;
+        height: 50px;
+    }
+
+    .inputs3 {
+        height: 120px;
+    }
+
+    .down {
+        height: 70px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inputs1 {
+        margin-right: 0;
+    }
+
+    .inputs2 {
+        margin-left: 87px;
+    }
+}
